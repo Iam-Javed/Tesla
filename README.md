@@ -20,6 +20,8 @@ In this project, I have created Tesla Landing Page with image slider, The projec
 # Run Locally
 To run tesla-frontend-page locally
 
+Link: https://tesla-frontend-project.netlify.app
+
 Linux and macOS:
 
 git@github.com:Javed-Pc/totalitycrop-frontend-challenge.git
