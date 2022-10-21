@@ -1,8 +1,6 @@
 # totalitycrop-frontend-challenge
 In this project, I have created Tesla Landing Page with image slider, The project is built using HTML5, CSS3 &amp; Javascript.
 
-# Demo Screenshot
-https://github.com/Javed-Pc/totalitycrop-frontend-challenge/blob/21666f3e459818449b7c1b98b40db051787a413c/readme-images/tesla-front%20page.png
 
 # Features
 --> Active navbar similar to original
@@ -18,3 +16,14 @@ https://github.com/Javed-Pc/totalitycrop-frontend-challenge/blob/21666f3e4598184
 --> Persistant log in even after reload unless you sign-out
 
 --> Your personal dashboard on account tab
+
+# Run Locally
+To run tesla-landing-page locally, run this command on your git bash:
+
+Linux and macOS:
+
+sudo git clone https://github.com/geeky-prashant/tesla-landing-page.git
+
+Windows:
+
+git clone https://github.com/geeky-prashant/tesla-landing-page.git
