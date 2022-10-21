@@ -22,8 +22,8 @@ To run tesla-frontend-page locally, run this command
 
 Linux and macOS:
 
-https://github.com/Javed-Pc/totalitycrop-frontend-challenge.git
+git@github.com:Javed-Pc/totalitycrop-frontend-challenge.git
 
 Windows:
 
-git clone https://github.com/geeky-prashant/tesla-landing-page.git
+https://github.com/Javed-Pc/totalitycrop-frontend-challenge.git
