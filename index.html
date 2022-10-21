@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesla Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header" id="header">
+      <nav>
+        <img src="images/logo.png" class="logo" />
+        <ul>
+          <li><a href="#" id="models">Model S</a></li>
+          <li><a href="#" id="model3">Model 3</a></li>
+          <li><a href="#" id="modelx">Model X</a></li>
+          <li><a href="#" id="modely">Model Y</a></li>
+        </ul>
+        <a href="#" class="btn">Reserve Now</a>
+      </nav>
+      <div class="info">
+        <div>
+          <h2 id="benefit1">1.9 s</h2>
+          <p id="feature1">60 mph</p>
+        </div>
+        <div>
+          <h2 id="benefit2">200 mph</h2>
+          <p id="feature2">Top Speed</p>
+        </div>
+        <div>
+          <h2 id="benefit3">396 mi</h2>
+          <p id="feature3">Max Range</p>
+        </div>
+        <div class="line"></div>
+        <div>
+          <h2 id="model">Model S</h2>
+        </div>
+      </div>
+    </div>
+    <script>
+      var header = document.getElementById("header");
+      var ms = document.getElementById("models");
+      var m3 = document.getElementById("model3");
+      var mx = document.getElementById("modelx");
+      var my = document.getElementById("modely");
+      var model = document.getElementById("model");
+      var benefit1 = document.getElementById("benefit1");
+      var feature1 = document.getElementById("feature1");
+      var benefit2 = document.getElementById("benefit2");
+      var feature2 = document.getElementById("feature2");
+      var benefit3 = document.getElementById("benefit3");
+      var feature3 = document.getElementById("feature3");
+
+      ms.onclick = function () {
+        header.style.backgroundImage = "url(images/image-1.jpg)";
+        model.innerHTML = "Model S";
+        benefit1.innerHTML = "1.9 s";
+        feature1.innerHTML = "60 mph";
+        benefit2.innerHTML = "200 mph";
+        feature2.innerHTML = "Top Speed";
+        benefit3.innerHTML = "396 mi";
+        feature3.innerHTML = "Max Range";
+      };
+      m3.onclick = function () {
+        header.style.backgroundImage = "url(images/image-2.jpg)";
+        model.innerHTML = "Model 3";
+        benefit1.innerHTML = "1.8 s";
+        feature1.innerHTML = "55 mph";
+        benefit2.innerHTML = "180 mph";
+        feature2.innerHTML = "Top Speed";
+        benefit3.innerHTML = "355 mi";
+        feature3.innerHTML = "Max Range";
+      };
+      mx.onclick = function () {
+        header.style.backgroundImage = "url(images/image-3.jpg)";
+        model.innerHTML = "Model X";
+        benefit1.innerHTML = "1.7 s";
+        feature1.innerHTML = "60 mph";
+        benefit2.innerHTML = "165 mph";
+        feature2.innerHTML = "Top Speed";
+        benefit3.innerHTML = "350 mi";
+        feature3.innerHTML = "Max Range";
+      };
+      my.onclick = function () {
+        header.style.backgroundImage = "url(images/image-4.jpg)";
+        model.innerHTML = "Model Y";
+        benefit1.innerHTML = "1.5 s";
+        feature1.innerHTML = "55 mph";
+        benefit2.innerHTML = "160 mph";
+        feature2.innerHTML = "Top Speed";
+        benefit3.innerHTML = "325 mi";
+        feature3.innerHTML = "Max Range";
+      };
+    </script>
+  </body>
+</html>
