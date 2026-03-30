@@ -26,7 +26,7 @@ jobs:
 
       - name: build the image
         run: |
-          docker build --file Dockerfile -t tesla:v1.0.0 .
+          docker build --file Dockerfile --tag tesla:v1.0.0 .
 
       - name: save the image as tar
         run: |
