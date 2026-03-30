@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - tesla-pipeline
+    pull_request:
+      branches:
+        - main
   
   schedule:
     - cron: '9 9 * * *' # Runs every day at 9:09 AM UTC
