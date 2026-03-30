@@ -3,7 +3,7 @@ name: CI workflow for tesla project
 on:
   push:
     branches:
-      - pipeline
+      - tesla-pipeline
   
   schedule:
     - cron: '9 9 * * *' # Runs every day at 9:09 AM UTC
