@@ -67,7 +67,7 @@ jobs:
 
   push:
     runs-on: ubuntu-latest
-    needs: [build, security_scan]
+    needs: security_scan
     environment: Production
     steps:
       - name: Load the image from artifact
