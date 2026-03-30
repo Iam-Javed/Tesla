@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - tesla-pipeline
-    pull_request:
-      branches:
-        - main
   
   schedule:
     - cron: '9 9 * * *' # Runs every day at 9:09 AM UTC
@@ -26,7 +23,7 @@ jobs:
 
       - name: build the image
         run: |
-          docker build -t tesla:v1.0.0 .
+          docker build --file Dockerfile -t tesla:v1.0.0 .
 
       - name: save the image as tar
         run: |
